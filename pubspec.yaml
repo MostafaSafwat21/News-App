@@ -1,0 +1,57 @@
+name: news
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  sqflite: ^2.2.4+1
+  intl: ^0.18.0
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.1
+  conditional_builder_null_safety: ^0.0.6
+  hexcolor: ^3.0.1
+  shared_preferences: ^2.0.18
+  dio: ^5.0.1
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  flutter_html: ^3.0.0-alpha.6
+  url_launcher: ^6.0.20
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppICon"
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
